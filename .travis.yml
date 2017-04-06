@@ -4,4 +4,6 @@ language: python
 python:
     - "2.7"
 script:
+    - python basic_ansi.py
+    - python xterm_colour_chart.py -8 -n
     - python xterm_colour_chart.py -n
