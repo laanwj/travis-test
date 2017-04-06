@@ -1,5 +1,7 @@
 dist: trusty
 os: linux
-language: generic
+language: python
+python:
+    - "2.7"
 script:
-    - echo -e "\e[1;33mtest\e[0m"
+    - python xterm_colour_chart.py -n
